@@ -1,0 +1,57 @@
+.container {
+    
+    margin: 0 auto;
+    background: #dbd8e3;
+    max-width: 600px;
+    margin-top: 40px;
+    padding: 30px;
+    color: #5c5470;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+.search-bar {
+    border-radius: 15px;
+    width: 75%;
+    border: none;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.search-button {
+    color: white;
+    border-radius: 20px;
+    border: none;
+    background-color: #5c5470;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 15%;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.search-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+a:hover {
+    color: azure;
+    cursor: pointer;
+}
+
+body {
+    background: #5c5470;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #dbd8e3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: #9c94b0;
+}
