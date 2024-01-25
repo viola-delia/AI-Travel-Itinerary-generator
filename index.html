@@ -3,22 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>AI Travel Itinerary Generator</title>
   </head>
   <body>
     <div class="container">
-      <h1>AI Travel Itinerary generator</h1>
+      <h1>🤖 AI Travel Itinerary generator</h1>
 
-      <form>
+      <form id="travel-itinerary-form">
         <input
           type="text"
           placeholder="Enter the name of a country to generate an itinerary"
           class="search-bar"
+          id="instructions"
         />
         <input type="submit" value="Search" class="search-button" />
       </form>
+      <small>For example: Bali, New York or Italy</small>
     </div>
+
+    <div class="itinerary hidden" id="itinerary"></div>
     <footer>
       This project was coded by
       <a href="https://github.com/viola-delia" target="_blank">Viola D'Elia</a>,
@@ -29,7 +35,9 @@
         >GitHub</a
       >
       and hosted on
-      <a href="">Netlify</a>
+      <a href="https://travel-itinerary-generator.netlify.app/" target="_blank"
+        >Netlify</a
+      >
     </footer>
     <script src="index.js"></script>
   </body>
